@@ -1,15 +1,16 @@
 <template>
-  <hello-world />
+  <ItemsList />
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
+import ItemsList from "../components/ItemsList";
 
 export default {
-  name: "Home",
+  name: "HomeView",
 
   components: {
-    HelloWorld,
+    ItemsList,
   },
 };
 </script>
+<style lang="scss" scoped></style>
